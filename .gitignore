@@ -1,0 +1,42 @@
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variables d'environnement / secrets
+.env
+
+# Logs
+*.log
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy / type checking
+.mypy_cache/
+
+# Ruff / lint
+.ruff_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#my own directories
+zconception/

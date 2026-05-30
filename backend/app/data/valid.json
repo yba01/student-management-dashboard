@@ -1,0 +1,7279 @@
+[
+    {
+        "code": "AAD004",
+        "numero": "LIHGFR0",
+        "prenom": "Nourou",
+        "nom": "Diallo",
+        "date": "02/01/2012",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    14.0,
+                    15.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    13.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    14.0,
+                    13.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    19.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    13.0,
+                    12.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "40DKG6T",
+        "prenom": "awa",
+        "nom": "Diallo",
+        "date": "21/10/2004",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0,
+                    20.0,
+                    18.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    15.0,
+                    16.15,
+                    13.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    14.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0,
+                    11.0,
+                    15.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "44DSW78",
+        "prenom": "Sidy",
+        "nom": "Ndiaye",
+        "date": "19/01/2005",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    7.0,
+                    10.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    11.0,
+                    10.0,
+                    12.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    14.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    14.0,
+                    12.0,
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    14.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "20LH7BG",
+        "prenom": "Fallou",
+        "nom": "FAYE",
+        "date": "19/04/2002",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    8.0,
+                    13.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    10.1,
+                    11.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    15.0,
+                    10.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    8.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "8D805GT",
+        "prenom": "Seyni",
+        "nom": "Diop",
+        "date": "29/09/2005",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "9HBW36T",
+        "prenom": "Aliou",
+        "nom": "Ba",
+        "date": "01/01/2006",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    11.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    14.12,
+                    13.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    10.0,
+                    17.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "W8NNJ6T",
+        "prenom": "Ousmane",
+        "nom": "Ndoye",
+        "date": "09/04/2004",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    20.0,
+                    18.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    14.0,
+                    14.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.16,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    14.0,
+                    15.0,
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "23YLTXT",
+        "prenom": "Thierno",
+        "nom": "Baal",
+        "date": "22/01/2006",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.0,
+                    15.0
+                ],
+                "exam": 8.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    12.0,
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    8.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "48DKG8T",
+        "prenom": "Boubou",
+        "nom": "Baal",
+        "date": "26/04/2003",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0,
+                    11.0,
+                    8.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0,
+                    15.0,
+                    11.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD005",
+        "numero": "Q7XVP6G",
+        "prenom": "Bineta",
+        "nom": "Seck",
+        "date": "12/02/2005",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    14.0,
+                    8.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0,
+                    13.0,
+                    12.0
+                ],
+                "exam": 8.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "H18AC4W",
+        "prenom": "Mouhamed",
+        "nom": "BA",
+        "date": "14/01/2005",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "EPJHQQ5",
+        "prenom": "Fallou",
+        "nom": "DIAW",
+        "date": "12/08/2006",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.8
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    9.0,
+                    16.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "KM729R9",
+        "prenom": "Marie",
+        "nom": "NDIAYE",
+        "date": "19/02/2007",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    4.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.8
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "Q7U2XFP",
+        "prenom": "Abdou",
+        "nom": "DEME",
+        "date": "16/01/2004",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    14.5,
+                    11.0,
+                    13.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    4.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "0747PMJ",
+        "prenom": "Baye Ndiaga",
+        "nom": "Ndao",
+        "date": "08/08/2008",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0,
+                    9.0,
+                    11.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    8.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0,
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "18G9C4L",
+        "prenom": "Abdoulaye",
+        "nom": "DIEYE",
+        "date": "01/01/2002",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    4.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.8
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "UQI7FN8",
+        "prenom": "Keys",
+        "nom": "Cyrille",
+        "date": "07/11/2007",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    9.0,
+                    10.5,
+                    11.0,
+                    13.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.12
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "9H37AKZ",
+        "prenom": "Joakim",
+        "nom": "LOW",
+        "date": "20/12/2002",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.8
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    9.0,
+                    16.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "6691DTO",
+        "prenom": "Karin",
+        "nom": "Ndour",
+        "date": "07/07/2003",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    11.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    6.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    14.9,
+                    11.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    8.0,
+                    13.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    18.5
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    7.0,
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AAD007",
+        "numero": "8YM0304",
+        "prenom": "Iniess",
+        "nom": "KIBINDA",
+        "date": "15/08/2005",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    9.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABD009",
+        "numero": "345ERTH",
+        "prenom": "Wade",
+        "nom": "Abdou",
+        "date": "31/12/2007",
+        "classe": "6e D",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    4.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    17.0,
+                    18.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.9,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    0.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    20.0,
+                    16.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABD009",
+        "numero": "SDFTY34",
+        "prenom": "Mbol",
+        "nom": "Senir",
+        "date": "24/02/2015",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    1.0,
+                    5.0
+                ],
+                "exam": 8.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    9.0,
+                    18.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.9,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    20.0,
+                    16.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    6.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABD009",
+        "numero": "ZRDFD4S",
+        "prenom": "Sylla",
+        "nom": "Ndiareme",
+        "date": "03/09/2005",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    1.0,
+                    4.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    0.0,
+                    19.0,
+                    8.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    2.19,
+                    1.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    20.0,
+                    16.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    9.0
+                ],
+                "exam": 1.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABD009",
+        "numero": "ERSTYDD",
+        "prenom": "Diop",
+        "nom": "Akapla",
+        "date": "03/05/1978",
+        "classe": "5e C",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    11.0,
+                    9.0,
+                    1.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.9,
+                    9.0
+                ],
+                "exam": 1.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    2.0,
+                    6.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 0.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABD009",
+        "numero": "DFGE67T",
+        "prenom": "Tounkho",
+        "nom": "Mbor",
+        "date": "17/10/2001",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    4.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    19.0,
+                    18.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.9,
+                    9.0
+                ],
+                "exam": 4.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    10.0,
+                    8.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    9.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABD009",
+        "numero": "23453RD",
+        "prenom": "Niani",
+        "nom": "y\u00e9r\u00e9",
+        "date": "05/11/2012",
+        "classe": "3e D",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    18.0,
+                    4.0
+                ],
+                "exam": 8.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    9.0,
+                    18.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.9,
+                    9.0
+                ],
+                "exam": 3.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    6.0,
+                    16.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    19.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABD009",
+        "numero": "56GFSE6",
+        "prenom": "Samak\u00e9",
+        "nom": "Awa",
+        "date": "30/09/2005",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    1.0,
+                    4.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    1.0,
+                    9.0,
+                    18.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.9,
+                    9.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    20.0,
+                    16.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABD009",
+        "numero": "RTGHSDG",
+        "prenom": "Gueye",
+        "nom": "Ndol",
+        "date": "30/09/2006",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    4.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    11.0,
+                    1.0,
+                    17.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    8.9,
+                    5.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    10.0,
+                    6.0,
+                    8.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    9.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABN018",
+        "numero": "PONAAM0",
+        "prenom": "Diop",
+        "nom": "Mayoro",
+        "date": "14/05/2002",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    8.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    19.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    18.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    18.0,
+                    13.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    15.0,
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ABN018",
+        "numero": "83WERRE",
+        "prenom": "Morey",
+        "nom": "Wesh",
+        "date": "25/11/2004",
+        "classe": "3e D",
+        "note": [
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    16.0,
+                    8.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    19.0,
+                    19.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    14.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    18.0,
+                    13.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    0.0,
+                    3.0
+                ],
+                "exam": 2.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    6.0,
+                    17.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AFD006",
+        "numero": "2022HEC",
+        "prenom": "Gallas",
+        "nom": "SYLLA",
+        "date": "02/03/2000",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    9.0,
+                    15.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    18.0,
+                    14.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    9.0,
+                    10.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    3.0,
+                    11.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AFD006",
+        "numero": "2017ERT",
+        "prenom": "Elisabeth",
+        "nom": "MANTANE",
+        "date": "03/04/1996",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AFD006",
+        "numero": "2019GHS",
+        "prenom": "Chris",
+        "nom": "BOISY",
+        "date": "04/09/2001",
+        "classe": "5e C",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0,
+                    19.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    14.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    19.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0,
+                    18.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    11.0,
+                    12.0,
+                    11.0
+                ],
+                "exam": 20.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AFD006",
+        "numero": "2014TGR",
+        "prenom": "Marcelin",
+        "nom": "MENDY",
+        "date": "12/11/1992",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AFD006",
+        "numero": "2020DFH",
+        "prenom": "Fatah",
+        "nom": "NDIAYE",
+        "date": "23/08/2000",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.8
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    9.0,
+                    16.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AFD006",
+        "numero": "2019R3M",
+        "prenom": "Ben Omar",
+        "nom": "MOHAMED",
+        "date": "30/03/1999",
+        "classe": "3e C",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    16.0,
+                    18.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    15.0,
+                    17.0,
+                    13.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    16.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AFD006",
+        "numero": "2018JKH",
+        "prenom": "Zeyna",
+        "nom": "NDIAYE",
+        "date": "23/06/1998",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0,
+                    19.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    14.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    19.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0,
+                    18.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    11.0,
+                    12.0,
+                    11.0
+                ],
+                "exam": 20.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AKH014",
+        "numero": "2020UT6",
+        "prenom": "SORPHAKA",
+        "nom": "SIHARAJ",
+        "date": "11/09/2002",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    14.0,
+                    12.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    18.0,
+                    6.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    12.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    18.0,
+                    13.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    11.0,
+                    19.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    13.0,
+                    15.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AKH014",
+        "numero": "2021IJ3",
+        "prenom": "LYDIE",
+        "nom": "LEFRANC",
+        "date": "04/06/2001",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AKH014",
+        "numero": "PO0023R",
+        "prenom": "ERIC",
+        "nom": "DUPASQUIER",
+        "date": "02/09/1990",
+        "classe": "3e C",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    20.0,
+                    18.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    14.0,
+                    14.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.16,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    14.0,
+                    15.0,
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AKH014",
+        "numero": "1992I0E",
+        "prenom": "ABDERRAHMAN",
+        "nom": "MAHMOUD",
+        "date": "12/12/1999",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AKH014",
+        "numero": "20L6TRA",
+        "prenom": "MIMOUNI",
+        "nom": "MIMOUNI",
+        "date": "12/07/1997",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AKH014",
+        "numero": "54FR342",
+        "prenom": "LAYE",
+        "nom": "Kamou",
+        "date": "04/03/2020",
+        "classe": "5e C",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "E7812Z3",
+        "prenom": "ALY",
+        "nom": "DIOP",
+        "date": "12/04/1998",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    14.0,
+                    12.0,
+                    10.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.0,
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "Z781263",
+        "prenom": "FATOU",
+        "nom": "FAYE",
+        "date": "12/04/1997",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0,
+                    9.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    4.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    19.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0,
+                    10.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    3.0,
+                    13.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "Z7812Z5",
+        "prenom": "ALIOUNE",
+        "nom": "DIOUM",
+        "date": "12/12/2011",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    4.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.8
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "Z7812Z9",
+        "prenom": "MOUSSA",
+        "nom": "NDIAYE",
+        "date": "12/03/1999",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    9.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "Z7852Z3",
+        "prenom": "MOUSTAPHA",
+        "nom": "FALL",
+        "date": "09/09/2012",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    9.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "Z7812Z7",
+        "prenom": "IDRISSA",
+        "nom": "MBAYE",
+        "date": "15/05/2011",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    11.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    6.0,
+                    14.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    12.19,
+                    11.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    18.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    8.15
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    7.0,
+                    11.0,
+                    9.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "Z7312Z3",
+        "prenom": "SEYDOU",
+        "nom": "TINE",
+        "date": "03/09/2000",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "Z7832Z3",
+        "prenom": "MOUSSA",
+        "nom": "SANE",
+        "date": "29/12/2001",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    11.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0,
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    11.0,
+                    1.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0,
+                    13.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    11.0,
+                    15.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMD013",
+        "numero": "Z8812Z3",
+        "prenom": "OUMAR",
+        "nom": "TOURE",
+        "date": "29/11/2001",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    9.0,
+                    10.5,
+                    10.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    11.12
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA001",
+        "prenom": "FATOU",
+        "nom": "FAYE",
+        "date": "12/04/1993",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA002",
+        "prenom": "THIERNO",
+        "nom": "GAYE",
+        "date": "14/02/1992",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA003",
+        "prenom": "YOUSSOU",
+        "nom": "DIOP",
+        "date": "12/06/1994",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA004",
+        "prenom": "PETIT",
+        "nom": "WAGNE",
+        "date": "12/07/1995",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA005",
+        "prenom": "GALAYE",
+        "nom": "CISSE",
+        "date": "04/03/1995",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA006",
+        "prenom": "PATA",
+        "nom": "GOMIS",
+        "date": "01/06/1997",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA007",
+        "prenom": "BALLA",
+        "nom": "SANE",
+        "date": "09/09/1999",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA008",
+        "prenom": "SADIO",
+        "nom": "SAGNA",
+        "date": "06/06/1999",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMG015",
+        "numero": "SONA009",
+        "prenom": "MAREME",
+        "nom": "NIANG",
+        "date": "12/12/1996",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    4.0,
+                    3.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "A7723ML",
+        "prenom": "Moussa",
+        "nom": "Kane",
+        "date": "29/12/2001",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    14.0,
+                    12.0,
+                    10.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.0,
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "Z7812Z3",
+        "prenom": "Mousona",
+        "nom": "Konimba",
+        "date": "12/12/2009",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    10.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    15.0,
+                    12.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    16.0,
+                    18.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    18.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    18.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "M770231",
+        "prenom": "Mustapha",
+        "nom": "Ilimani",
+        "date": "12/04/1997",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    12.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0,
+                    19.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    19.0,
+                    12.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    11.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0,
+                    13.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    11.0,
+                    19.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "JH23GH3",
+        "prenom": "Mamadou",
+        "nom": "Loum",
+        "date": "12/12/2011",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0,
+                    9.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    4.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    19.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0,
+                    10.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    3.0,
+                    13.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "SX34AZ2",
+        "prenom": "Souleyni",
+        "nom": "Gaye",
+        "date": "12/03/1999",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    19.0,
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    16.0,
+                    10.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    2.0,
+                    16.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "E9D45JJ",
+        "prenom": "Cheikh",
+        "nom": "Hann",
+        "date": "09/09/2012",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0,
+                    19.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    14.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    19.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0,
+                    18.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    11.0,
+                    12.0,
+                    11.0
+                ],
+                "exam": 20.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "HIE938J",
+        "prenom": "Aliou",
+        "nom": "Kane",
+        "date": "15/05/2011",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    20.0,
+                    20.0,
+                    20.0
+                ],
+                "exam": 20.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    20.0,
+                    20.0
+                ],
+                "exam": 20.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    12.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    19.0,
+                    19.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    7.0,
+                    1.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    6.0,
+                    13.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "23JHNB2",
+        "prenom": "Charles",
+        "nom": "Ngimbona",
+        "date": "03/09/2000",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    11.0,
+                    10.0,
+                    9.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0,
+                    11.0,
+                    9.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    18.0,
+                    19.0,
+                    19.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    1.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    19.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    19.0,
+                    17.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AMK016",
+        "numero": "HJ293D4",
+        "prenom": "Mbalanga",
+        "nom": "Ikouna",
+        "date": "01/01/2001",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0,
+                    12.0,
+                    10.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.0,
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AOD010",
+        "numero": "DKZGS12",
+        "prenom": "Ousmane",
+        "nom": "diop",
+        "date": "01/02/2004",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    14.0,
+                    10.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    9.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    16.0,
+                    11.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.1
+                ],
+                "exam": 11.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AOD010",
+        "numero": "DLEDQDO",
+        "prenom": "abdou",
+        "nom": "ndiaye",
+        "date": "21/03/2005",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0,
+                    15.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    13.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0,
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    11.0,
+                    14.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AOD010",
+        "numero": "XSDEF12",
+        "prenom": "fatou",
+        "nom": "gueye",
+        "date": "03/04/2005",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    10.0
+                ],
+                "exam": 8.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    11.0
+                ],
+                "exam": 4.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0,
+                    4.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    18.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    4.0,
+                    8.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AOD010",
+        "numero": "DZLSWQ7",
+        "prenom": "salif",
+        "nom": "sambe",
+        "date": "18/03/2004",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    14.0,
+                    10.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    14.0,
+                    19.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0,
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0,
+                    16.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    14.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AOD010",
+        "numero": "LFNJESM",
+        "prenom": "jean",
+        "nom": "sambou",
+        "date": "19/05/2006",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    19.0
+                ],
+                "exam": 20.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    5.0,
+                    9.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    18.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    13.12
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AOD010",
+        "numero": "JHDHRE8",
+        "prenom": "jeannette",
+        "nom": "sene",
+        "date": "20/12/2007",
+        "classe": "6e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    11.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0,
+                    14.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    11.0,
+                    1.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0,
+                    13.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    11.0,
+                    15.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AOD010",
+        "numero": "JGRHFNE",
+        "prenom": "pathe",
+        "nom": "sy",
+        "date": "31/01/2006",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    15.0,
+                    14.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.11
+                ],
+                "exam": 14.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "AOD010",
+        "numero": "LSXNEB0",
+        "prenom": "modou",
+        "nom": "gueye",
+        "date": "03/01/2002",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    19.0
+                ],
+                "exam": 20.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    5.0,
+                    9.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    18.0,
+                    16.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    13.12
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ASK017",
+        "numero": "CMGBDK9",
+        "prenom": "Christelle",
+        "nom": "MENDY",
+        "date": "11/10/2006",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    14.0,
+                    18.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    11.0,
+                    9.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    8.0,
+                    5.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ASK017",
+        "numero": "MTBFCA2",
+        "prenom": "Mounkoudy",
+        "nom": "TAPSOBA",
+        "date": "08/12/2008",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.0,
+                    8.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    15.0,
+                    18.0
+                ],
+                "exam": 20.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0,
+                    17.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    19.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0,
+                    14.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    6.0,
+                    9.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "ASK017",
+        "numero": "ABHLMY1",
+        "prenom": "Angelline",
+        "nom": "BAOBEY",
+        "date": "18/03/2006",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    16.0,
+                    10.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    18.0,
+                    15.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0,
+                    12.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    13.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0,
+                    10.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    14.0,
+                    18.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "AF32IBC",
+        "prenom": "OUSSEYOU",
+        "nom": "FALL",
+        "date": "03/07/2000",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0,
+                    15.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    14.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    15.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    14.0,
+                    9.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "M60GRTL",
+        "prenom": "SOKHNA",
+        "nom": "TINE",
+        "date": "25/02/2005",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    8.0,
+                    13.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0,
+                    11.0,
+                    9.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 8.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    11.0,
+                    9.0,
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "QNXKW09",
+        "prenom": "MARIEME",
+        "nom": "SINE",
+        "date": "29/08/2008",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    8.0,
+                    12.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    12.0
+                ],
+                "exam": 7.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    8.0,
+                    11.0,
+                    10.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "G2NXW1L",
+        "prenom": "MOUSTAPHA",
+        "nom": "DIOUF",
+        "date": "05/07/2001",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    14.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    12.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    9.0,
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0,
+                    12.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "UPNCG78",
+        "prenom": "ALIOU",
+        "nom": "KA",
+        "date": "10/05/2009",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    9.0,
+                    10.5,
+                    10.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    11.12
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "WYI96BT",
+        "prenom": "MOUSSA",
+        "nom": "BA",
+        "date": "05/11/2010",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    12.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    17.0,
+                    9.0,
+                    8.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.0,
+                    7.0,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "WYI96BT",
+        "prenom": "SEYNABOU",
+        "nom": "DIALLO",
+        "date": "16/02/2003",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    8.0,
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    14.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.0,
+                    9.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    16.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    14.0,
+                    9.0,
+                    11.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "FRTX54U",
+        "prenom": "FATOU",
+        "nom": "NDIAYE",
+        "date": "22/07/2005",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    7.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    13.0,
+                    14.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    9.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    11.0,
+                    10.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "LJQC67L",
+        "prenom": "ASTOU",
+        "nom": "WADE",
+        "date": "12/12/2007",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    13.0,
+                    15.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    14.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    19.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    13.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    14.0,
+                    9.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAD008",
+        "numero": "KFPB32H",
+        "prenom": "ADJA",
+        "nom": "SY",
+        "date": "02/08/2002",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    9.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "GH43RTU",
+        "prenom": "Aram",
+        "nom": "Ndao",
+        "date": "16/02/2000",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "PLM56DS",
+        "prenom": "Pipo",
+        "nom": "Gomis",
+        "date": "16/03/1998",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    8.0,
+                    7.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    12.0,
+                    9.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.15,
+                    19.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    2.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "GF34KHS",
+        "prenom": "Ousseynou",
+        "nom": "Diouf",
+        "date": "03/12/1992",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    18.0,
+                    17.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    5.0,
+                    13.0,
+                    9.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.5,
+                    10.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    19.0,
+                    15.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    16.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "JHGF7F5",
+        "prenom": "Elimane",
+        "nom": "Diop",
+        "date": "12/01/2003",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    9.0,
+                    17.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    13.0,
+                    8.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    3.5,
+                    10.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    17.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    19.0,
+                    16.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    14.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "RED76BH",
+        "prenom": "Babacar",
+        "nom": "Ciss\u00e9",
+        "date": "03/06/2005",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    8.0,
+                    7.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    12.0,
+                    9.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.15,
+                    19.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    2.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "GF69LBC",
+        "prenom": "Abdoulaye",
+        "nom": "Ba",
+        "date": "09/02/1992",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    18.0,
+                    17.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    10.0,
+                    1.0,
+                    9.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.11,
+                    18.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    13.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "ML09RDS",
+        "prenom": "Alioune",
+        "nom": "Diallo",
+        "date": "08/07/1993",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    9.0,
+                    7.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    11.0,
+                    13.0,
+                    19.0
+                ],
+                "exam": 4.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.11,
+                    10.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    13.0,
+                    7.0,
+                    15.0,
+                    16.0
+                ],
+                "exam": 2.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "NBV76RD",
+        "prenom": "Abdalah",
+        "nom": "Gueye",
+        "date": "01/01/1992",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    17.0
+                ],
+                "exam": 0.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    12.0,
+                    17.0,
+                    12.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.15,
+                    19.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    8.0,
+                    12.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "NB675DH",
+        "prenom": "Hawa",
+        "nom": "Dia",
+        "date": "07/07/1997",
+        "classe": "5e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    15.0,
+                    12.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    13.0,
+                    16.0,
+                    19.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.13,
+                    18.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    12.0
+                ],
+                "exam": 19.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    2.0,
+                    9.0,
+                    17.0,
+                    11.0
+                ],
+                "exam": 2.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    1.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BAF013",
+        "numero": "MLHF65D",
+        "prenom": "Penda",
+        "nom": "Guiss\u00e9",
+        "date": "04/04/1994",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    8.0,
+                    7.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    15.0,
+                    12.0,
+                    9.0
+                ],
+                "exam": 14.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.15,
+                    19.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    2.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 18.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "IHFK34G",
+        "prenom": "Harry",
+        "nom": "DIOUM",
+        "date": "14/01/1995",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    19.0,
+                    1.0
+                ],
+                "exam": 4.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    15.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    18.0,
+                    11.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    17.5
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    3.0,
+                    15.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "3FR5IJ9",
+        "prenom": "Hermione",
+        "nom": "DIALLO",
+        "date": "12/08/2006",
+        "classe": "4e B",
+        "note": [
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    15.0,
+                    11.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    6.0,
+                    14.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    12.19,
+                    11.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    18.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    8.15
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    7.0,
+                    11.0,
+                    9.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "PM12NG7",
+        "prenom": "Mari\u00e8me",
+        "nom": "DIOP",
+        "date": "19/08/1997",
+        "classe": "3e A",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    15.0,
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    4.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.8
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "89HY6F5",
+        "prenom": "Ronald",
+        "nom": "DIALLO",
+        "date": "09/05/2000",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    14.5
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    4.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "5D7BKJ2",
+        "prenom": "Magui",
+        "nom": "FALL",
+        "date": "30/08/2008",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    11.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "PK0I89K",
+        "prenom": "Rachid",
+        "nom": "CAMARA",
+        "date": "15/02/2001",
+        "classe": "6e A",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.8
+                ],
+                "exam": 5.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "9F6J9TT",
+        "prenom": "Ousseynou",
+        "nom": "POUYE",
+        "date": "02/12/1985",
+        "classe": "4e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    14.5,
+                    11.0,
+                    15.0
+                ],
+                "exam": 17.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0,
+                    16.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    16.0,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    3.0,
+                    17.0,
+                    18.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    14.0,
+                    12.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    13.5
+                ],
+                "exam": 15.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "6G6F9F1",
+        "prenom": "Mahi",
+        "nom": "DEME",
+        "date": "27/10/1993",
+        "classe": "3e B",
+        "note": [
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    11.0,
+                    11.0
+                ],
+                "exam": 9.0,
+                "valid": true
+            },
+            {
+                "matiere": "math",
+                "devoirs": [
+                    14.15,
+                    11.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    14.0,
+                    12.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    12.8
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    10.0,
+                    9.0,
+                    16.0,
+                    13.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 16.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    },
+    {
+        "code": "BMP019",
+        "numero": "BH54JJ6",
+        "prenom": "Bachir",
+        "nom": "DUBOIS",
+        "date": "15/09/1994",
+        "classe": "5e A",
+        "note": [
+            {
+                "matiere": "math",
+                "devoirs": [
+                    10.0,
+                    15.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "fr",
+                "devoirs": [
+                    17.0,
+                    9.0,
+                    8.0
+                ],
+                "exam": 13.0,
+                "valid": true
+            },
+            {
+                "matiere": "ang",
+                "devoirs": [
+                    10.5,
+                    9.0
+                ],
+                "exam": 15.0,
+                "valid": true
+            },
+            {
+                "matiere": "pc",
+                "devoirs": [
+                    10.0,
+                    13.0
+                ],
+                "exam": 11.0,
+                "valid": true
+            },
+            {
+                "matiere": "svt",
+                "devoirs": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "exam": 12.0,
+                "valid": true
+            },
+            {
+                "matiere": "hg",
+                "devoirs": [
+                    10.0
+                ],
+                "exam": 10.0,
+                "valid": true
+            }
+        ],
+        "valid": true,
+        "erreurs": []
+    }
+]
