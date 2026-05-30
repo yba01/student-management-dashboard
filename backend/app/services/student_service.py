@@ -85,3 +85,17 @@ def restore_student(numero):
         con.close()
 
         return row
+
+def update_student(numero, student):
+    con = connect('schooldb')
+    if con != None :
+        cur = con.cursor()
+        qr.update_student(cur, numero, student)
+        con.commit()
+
+        row = cur.rowcount
+
+        cur.close()
+        con.close()
+
+        return row

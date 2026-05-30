@@ -82,3 +82,38 @@ def restore_student(cur, numero):
         "UPDATE etudiant SET archived = FALSE WHERE numero = %s", 
         (numero,)
     )
+
+
+def update_student(cur, numero, student):
+    fields = []
+    values = []
+
+    if student.code is not None:
+        fields.append("code = %s")
+        values.append(student.code)
+
+    if student.prenom is not None:
+        fields.append("prenom = %s")
+        values.append(student.prenom)
+    
+    if student.nom is not None:
+        fields.append("nom = %s")
+        values.append(student.nom)
+    
+    if student.dates is not None:
+        fields.append("date_naissance = %s")
+        values.append(student.dates)
+
+    if student.classe is not None:
+        fields.append("classe = %s")
+        values.append(student.classe)
+    
+    if student.datasource is not None:
+        fields.append("datasource = %s")
+        values.append(student.datasource)
+
+    values.append(numero)
+
+    query = f'UPDATE etudiant SET {", ".join(fields)} WHERE numero = %s'
+
+    cur.execute(query, tuple(values))

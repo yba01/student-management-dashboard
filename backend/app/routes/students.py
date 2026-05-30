@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query, HTTPException
 import services.student_service as std
-from schema.student_schema import etudiant
+from schema.student_schema import etudiant, updatetudiant
 
 router = APIRouter()
 
@@ -45,3 +45,14 @@ def restore_student(numero : str):
 def create_student(student: etudiant):
     std.create_student(student)
     return {"message": "Student succefully created"}
+
+@router.patch("/api/v1/etudiants/{numero}")
+def update_student(numero: str, payload: updatetudiant):
+    updated = std.update_student(numero, payload)
+
+    if not updated:
+        raise HTTPException(status_code = 404, detail = "Student not found")
+    
+    return {"message": "Data updated successfully"}
+
+
