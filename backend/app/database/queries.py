@@ -60,7 +60,7 @@ def get_students(cur, page, limit, search, classe, source):
         params.append(source)
 
     # Pagination
-    query += " ORDER BY datasource, prenom, nom"
+    query += " ORDER BY datasource DESC, prenom, nom"
     query += " LIMIT %s OFFSET %s"
 
     offset = (page - 1) * limit

@@ -2,6 +2,15 @@ from database.connection import connect
 import database.queries as qr
 from utils.json_loader import load_json
 
+def create_student(student):
+    con = connect('schooldb')
+    if con != None :
+        cur = con.cursor()
+        qr.create_student(cur, student.numero, student.code, student.prenom, student.nom, student.dates, student.classe, 'DB')
+        con.commit()
+
+    cur.close()
+    con.close()
 
 def create_students_with_note():
     data = load_json("data/valid.json")
