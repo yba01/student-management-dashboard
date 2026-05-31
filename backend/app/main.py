@@ -1,5 +1,6 @@
 from fastapi import FastAPI 
 from routes.students import router as student_router
+from routes.dashboard import router as dashboard_router
 
 app = FastAPI(
     title="Student Management API",
@@ -8,6 +9,7 @@ app = FastAPI(
  
 
 app.include_router(student_router)
+app.include_router(dashboard_router)
 
 @app.get("/")
 def root():
