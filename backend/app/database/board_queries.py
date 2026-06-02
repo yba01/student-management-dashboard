@@ -1,31 +1,16 @@
 def total_student(cur):
     cur.execute(
-        "SELECT COUNT(numero) FROM etudiant"
-    )
-
-def total_from_db(cur):
-    cur.execute(
-        "SELECT COUNT(numero) FROM etudiant WHERE datasource = 'DB'"
-    )
-
-def total_from_json(cur):
-    cur.execute(
-        "SELECT COUNT(numero) FROM etudiant WHERE datasource = 'JSON'"
+        "SELECT COUNT(numero) total FROM etudiant"
     )
 
 def total_archived(cur):
     cur.execute(
-        "SELECT COUNT(numero) FROM etudiant WHERE archived = TRUE"
-    )
-
-def total_by_classe(cur):
-    cur.execute(
-        "SELECT classe, COUNT(numero) FROM etudiant GROUP BY classe"
+        "SELECT COUNT(numero) archives FROM etudiant WHERE archived = TRUE"
     )
 
 def total_by_source(cur):
     cur.execute(
-        "SELECT source, COUNT(numero) FROM etudiant GROUP BY datasource"
+        "SELECT datasource source, COUNT(numero) effectif  FROM etudiant GROUP BY datasource"
     )
 
 def classe_aggreg(cur):
@@ -79,7 +64,7 @@ def first_ten(cur):
                 GROUP BY numero
             )
 
-            SELECT e.numero, e.code, e.prenom, e.nom, e.date_naissance, e.classe, ROUND(m.mean, 2) AS moyenne
+            SELECT e.numero, e.code, e.prenom, e.nom, e.date_naissance date, e.classe, ROUND(m.mean, 2) AS moyenne
             FROM etudiant e JOIN moyenne_generale m ON e.numero = m.numero
             ORDER BY moyenne DESC
             LIMIT 10

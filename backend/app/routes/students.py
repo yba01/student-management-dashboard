@@ -11,8 +11,8 @@ def import_json():
         
 
 @router.get("/api/v1/etudiants")
-def get_students(page: int = Query(1, ge=1), limit: int = Query(5, ge=1, le=100), search: str | None = None, classe: str | None = None, source: str | None = None):
-    return std.get_students_from_db(page=page, limit=limit, search=search, classe=classe, source=source)
+def get_students(page: int | None = Query(None, ge=1), limit: int | None = Query(5, ge=1, le=100), numero: str | None = None, nom: str | None = None, code: str | None = None, classe: str | None = None, source: str | None = None):
+    return std.get_students_from_db(page=page, limit=limit, numero=numero, nom=nom, code=code, classe=classe, source=source)
 
 @router.get("/api/v1/etudiants/{numero}")
 def get_student(numero: str):

@@ -1,4 +1,5 @@
 from fastapi import FastAPI 
+from fastapi.middleware.cors import CORSMiddleware
 from routes.students import router as student_router
 from routes.dashboard import router as dashboard_router
 
@@ -7,6 +8,13 @@ app = FastAPI(
     version="1.0.0"
 )
  
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # dev only
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.include_router(student_router)
 app.include_router(dashboard_router)

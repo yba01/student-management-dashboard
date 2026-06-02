@@ -28,46 +28,58 @@ def create_all_note(cur, numero, notes):
 
 def get_student(cur, numero):
     cur.execute(
-        "SELECT * FROM etudiant WHERE numero = %s",
+        "SELECT numero, code, prenom, nom, date_naissance date, datasource source, classe FROM etudiant WHERE numero = %s",
         (numero,)
     )
 
-def get_students(cur, page, limit, search, classe, source):
+def get_students(cur, page, limit, numero, nom, code, classe, source):
     params = []
     query = """
-        SELECT *
+        SELECT numero, code, prenom, nom, date_naissance date, datasource source, classe, archived
         FROM etudiant
-        WHERE archived = FALSE
     """
-    if search :
-        query += """
-            AND (
-                LOWER(nom) LIKE LOWER(%s)
-                OR LOWER(prenom) LIKE LOWER(%s)
-                OR numero LIKE %s
-                OR code LIKE %s
-            )
-        """
-        search_term = f"%{search}%"
-        params.extend([search_term] * 4)
+        # WHERE archived = FALSE
+
+    conditions = []
+
+    if nom:
+        conditions.append("(LOWER(nom) LIKE LOWER(%s) OR LOWER(prenom) LIKE LOWER(%s))")
+        params.extend([f"{nom}%"] * 2)
+
+    if numero:
+        conditions.append("LOWER(numero) LIKE %s")
+        params.append(f'{numero}%')
+
+    if code:
+        conditions.append("LOWER(code) LIKE %s")
+        params.append(f'{code}%')
 
     if classe:
-        query += " AND classe = %s"
+        conditions.append("classe = %s")
         params.append(classe)
          
     if source :
-        query += " AND source = %s"
+        conditions.append("datasource = %s")
         params.append(source)
 
-    # Pagination
-    query += " ORDER BY datasource DESC, prenom, nom"
-    query += " LIMIT %s OFFSET %s"
-
-    offset = (page - 1) * limit
-    params.extend([limit, offset])
+    if conditions:
+        query += " WHERE (" + " OR ".join(conditions) + ")"
 
 
-    cur.execute(query, params)
+
+    if page and limit:
+        # Pagination
+        query += " ORDER BY datasource DESC, prenom, nom"
+        query += " LIMIT %s OFFSET %s"
+
+        offset = (page - 1) * limit
+        params.extend([limit, offset])
+        
+
+    if params:
+        cur.execute(query, params)
+    else:
+        cur.execute(query)
 
 
 

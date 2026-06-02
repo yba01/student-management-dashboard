@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>student-manager</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Student Manager</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-item active">
+                    <i class="fas fa-users"></i>
+                    <span>Étudiants</span>
+                </a>
+                <a href="dashboard.html" class="nav-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="badge-source">
+                    <i class="fas fa-database"></i> PostgreSQL
+                </div>
+                <div class="badge-source json">
+                    <i class="fas fa-code"></i> JSON
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <header class="top-bar">
+                <h1>Gestion des étudiants</h1>
+                <div class="header-actions">
+                    <div class="view-toggle">
+                        <button id="activeViewBtn" class="view-btn active">Actifs</button>
+                        <button id="archivesViewBtn" class="view-btn">Archives</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- SECTION ÉTUDIANTS ACTIFS -->
+            <div id="activeView" class="view-container active-view">
+                <!-- Filtres & recherche -->
+                <div class="filters-card">
+                    <div class="filter-row">
+                        <div class="search-group">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="searchNumero" placeholder="N° étudiant">
+                        </div>
+                        <div class="search-group">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="searchCode" placeholder="Code">
+                        </div>
+                        <div class="search-group">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="searchNomPrenom" placeholder="Nom / Prénom">
+                        </div>
+                    </div>
+                    <div class="filter-row">
+                        <select id="filterClasse" class="filter-select">
+                            <option value="">Toutes classes</option>
+                            <option value="6e A">6e A</option>
+                            <option value="6e B">6e B</option>
+                            <option value="6e C">6e C</option>
+                            <option value="6e D">6e D</option>
+                            <option value="5e A">5e A</option>
+                            <option value="5e B">5e B</option>
+                            <option value="5e C">5e C</option>
+                            <option value="5e D">5e D</option>
+                            <option value="4e A">4e A</option>
+                            <option value="4e B">4e B</option>
+                            <option value="4e C">4e C</option>
+                            <option value="4e D">4e D</option>
+                            <option value="3e A">3e A</option>
+                            <option value="3e B">3e B</option>
+                            <option value="3e C">3e C</option>
+                            <option value="3e D">3e D</option>
+                        </select>
+                        <select id="filterSource" class="filter-select">
+                            <option value="">Toutes sources</option>
+                            <option value="DB">PostgreSQL</option>
+                            <option value="JSON">JSON</option>
+                        </select>
+                        <!-- <select id="filterValidite" class="filter-select">
+                            <option value="">Tous statuts</option>
+                            <option value="true">Valide</option>
+                            <option value="false">Invalide</option>
+                        </select> -->
+                        <button id="resetFiltersBtn" class="btn-secondary"><i class="fas fa-times"></i> Réinitialiser</button>
+                    </div>
+                </div>
+
+                <!-- Barre d'actions: import, ajout rapide -->
+                <div class="action-bar">
+                    <div class="import-section">
+                        <button id="importSelectedBtn" class="btn-primary"><i class="fas fa-cloud-upload-alt"></i> Importer sélection (JSON → PostgreSQL)</button>
+                        <span class="import-hint">Cochez les lignes JSON</span>
+                    </div>
+                    <button id="openAddModalBtn" class="btn-success"><i class="fas fa-plus-circle"></i> Nouvel étudiant</button>
+                </div>
+
+                <!-- Tableau étudiants -->
+                <div class="table-container">
+                    <table class="data-table" id="studentsTable">
+                        <thead>
+                            <th style="width: 30px"><input type="checkbox" id="selectAllCheckbox"></th><th>N° étudiant</th><th>Code</th><th>Prénom</th><th>Nom</th><th>Classe</th><!--<th>Validité</th>--><th>Source</th><th style="width: 100px">Actions</th></tr>
+                        </thead>
+                        <tbody id="tableBody">
+                        </tbody>
+                    </table>
+                    <div id="sentinel"></div>
+                </div>
+            </div>
+
+            <!-- SECTION ARCHIVES -->
+            <div id="archivesView" class="view-container" style="display:none">
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <th style="width: 30px"></th><th>N° étudiant</th><th>Code</th><th>Prénom</th><th>Nom</th><th>Classe</th><!--<th>Validité</th>--><th>Source</th><th style="width: 100px">Actions</th></tr>
+                        </thead>
+                        <tbody id="archivesTableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- MODAL AJOUT / ÉDITION -->
+    <div id="studentModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Ajouter un étudiant</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <form id="studentForm">
+                <div class="form-group">
+                    <label>Numéro étudiant *</label>
+                    <input type="text" id="studentNumero" required>
+                </div>
+                <div class="form-group">
+                    <label>Code *</label>
+                    <input type="text" id="studentCode" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>Prénom *</label><input type="text" id="studentPrenom" required></div>
+                    <div class="form-group"><label>Nom *</label><input type="text" id="studentNom" required></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>Classe *</label><select id="studentClasse" required><option value="">Choisir</option><option>M1</option><option>M2</option><option>L3</option><option>L2</option></select></div>
+                    <div class="form-group"><label>Valide</label><input type="checkbox" id="studentValide"></div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="cancelModalBtn" class="btn-secondary">Annuler</button>
+                    <button type="submit" class="btn-primary">Enregistrer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="../js/students.js"></script>
+    <script type="module" src="../js/archives.js"></script>
+
+</body>
+</html>

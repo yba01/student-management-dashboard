@@ -1,88 +1,61 @@
 from database.connection import connect
 import database.board_queries as qr
+from psycopg.rows import dict_row
 
 def get_statistics():
     return {
-        "total" : get_total_student(),
-        "db" : get_student_from_db(),
-        "json" : get_student_from_json(),
-        "archives" : get_archived_student()
+        "total":get_total_student(),
+        "sources":get_total_by_source(),
+        "archives":get_archived_student()
     }
 
 def get_total_student():
-    con = connect('schooldb')
-    if con != None :
-        cur = con.cursor()
-        qr.total_student(cur)
-        total = cur.fetchone()
-
-        cur.close()
-        con.close()
-
-        return total[0]
-
-def get_student_from_db():
-    con = connect('schooldb')
-    if con != None :
-        cur = con.cursor()
-
-        qr.total_from_db(cur)
-        db = cur.fetchone()
-
-        cur.close()
-        con.close()
-
-        return db[0]
-
-def get_student_from_json():
-    con = connect('schooldb')
-    if con != None :
-        cur = con.cursor()
-
-        qr.total_from_json(cur)
-        json = cur.fetchone()
+     with connect('schooldb') as con:
+        if con != None :
+            with con.cursor(row_factory = dict_row) as cur:
+                qr.total_student(cur)
+                total = cur.fetchone()
+                return total['total']
 
 
-        cur.close()
-        con.close()
+def get_total_by_source():
+    with connect('schooldb') as con:
+        if con != None :
+            with con.cursor(row_factory = dict_row) as cur:
 
-        return json[0]
+                qr.total_by_source(cur)
+                db = cur.fetchall()
+
+                return db
+
 
 def get_archived_student():
-    con = connect('schooldb')
-    if con != None :
-        cur = con.cursor()
+    with connect('schooldb') as con:
+        if con != None :
+            with con.cursor(row_factory = dict_row) as cur:
 
-        qr.total_archived(cur)
-        archived = cur.fetchone()
+                qr.total_archived(cur)
+                archived = cur.fetchone()
 
-        cur.close()
-        con.close()
 
-        return archived[0]
+                return archived["archives"]
 
 def classe_aggregation():
-    con = connect('schooldb')
-    if con != None :
-        cur = con.cursor()
+    with connect('schooldb') as con:
+        if con != None :
+            with con.cursor(row_factory = dict_row) as cur:
 
-        qr.classe_aggreg(cur)
-        classes = cur.fetchall()
+                qr.classe_aggreg(cur)
+                classes = cur.fetchall()
 
-        cur.close()
-        con.close()
-
-        return classes
+                return classes
 
 def get_best_ten():
-    con = connect('schooldb')
-    if con != None :
-        cur = con.cursor()
+   with connect('schooldb') as con:
+        if con != None :
+            with con.cursor(row_factory = dict_row) as cur:
 
-        qr.first_ten(cur)
-        bests = cur.fetchall()
+                qr.first_ten(cur)
+                bests = cur.fetchall()
 
-        cur.close()
-        con.close()
-
-        return bests
+                return bests
