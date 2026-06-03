@@ -1,10 +1,17 @@
 import { getstudents } from './api.js'
 import { rendertable } from './table.js'
+import { reset, bindAutoFilter  } from './filter.js'
+import { attachecheckbox, importdb, importjsontodb } from './import.js'
 
-let currentPage = 1;
+export let currentPage = 1;
+export let hasMore = true;
+export let loading = false;
+export function setCurrentPar() {
+    currentPage = 1;
+    hasMore = true;
+    loading = false;
+}
 const limit = 5
-let hasMore = true;
-let loading = false;
 let observer = null
 
 export let filters = {
@@ -61,7 +68,7 @@ async function loadstudents(append = false) {
 }
 
 
-async function showstudents(){
+export async function showstudents(){
     loadstudents()
     if (observer) observer.disconnect();
     observer = new IntersectionObserver(entries => {
@@ -74,43 +81,13 @@ async function showstudents(){
     
 }
 
-// Helper: read all filter values from inputs and update the filters object
-function updateFiltersFromInputs() {
-    filters.numero = document.getElementById("searchNumero").value;
-    filters.code = document.getElementById("searchCode").value;
-    filters.nom = document.getElementById("searchNomPrenom").value;
-    filters.classe = document.getElementById("filterClasse").value;
-    filters.source = document.getElementById("filterSource").value;
-}
 
-// Auto-apply: whenever any filter input changes, reset and reload
-function bindAutoFilter() {
-    const inputs = ["searchNumero", "searchCode", "searchNomPrenom", "filterClasse", "filterSource"];
-    inputs.forEach(id => {
-        document.getElementById(id).addEventListener("input", () => {
-            updateFiltersFromInputs();
-            currentPage = 1;
-            hasMore = true;
-            loading = false;
-            showstudents();    // fresh load with new filters
-        });
-    });
-}
-
-
+//load students for the first
 showstudents()
+
+//filtering data
 document.getElementById("resetFiltersBtn").addEventListener("click", () => {
-
-    // Reset all filter values to ""
-    Object.keys(filters).forEach(key => filters[key] = "");
-
-    // Also clear the input fields in the UI (if they exist)
-    const inputIds = ["searchNumero", "searchCode", "searchNomPenom", "filterClasse", "filterSource"];
-    inputIds.forEach(id => {
-        const input = document.getElementById(id);
-        if (input) input.value = "";
-    });
-
+    reset()
     // Reset pagination state
     currentPage = 1;
     hasMore = true;
@@ -119,3 +96,9 @@ document.getElementById("resetFiltersBtn").addEventListener("click", () => {
 }) 
 bindAutoFilter()
 document.getElementById("activeViewBtn")?.addEventListener("click", () => { location.reload()  });
+
+//importing data in the db
+attachecheckbox()
+document.getElementById("importSelectedBtn")?.addEventListener("click", () => {importdb()})
+importjsontodb()
+//update data

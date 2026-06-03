@@ -13,16 +13,16 @@
         <!-- SIDEBAR -->
         <aside class="sidebar">
             <div class="logo-area">
-                <i class="fas fa-graduation-cap"></i>
+                <i class="fas fa-users"></i>
                 <span>Student Manager</span>
             </div>
             <nav class="nav-menu">
                 <a href="index.html" class="nav-item active">
-                    <i class="fas fa-users"></i>
-                    <span>Étudiants</span>
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Etudiants</span>
                 </a>
-                <a href="dashboard.html" class="nav-item">
-                    <i class="fas fa-chart-line"></i>
+                <a href="dashboard.html" class="nav-item">    
+                    <i class="fas fa-gauge-high"></i>
                     <span>Dashboard</span>
                 </a>
             </nav>
@@ -91,11 +91,7 @@
                             <option value="DB">PostgreSQL</option>
                             <option value="JSON">JSON</option>
                         </select>
-                        <!-- <select id="filterValidite" class="filter-select">
-                            <option value="">Tous statuts</option>
-                            <option value="true">Valide</option>
-                            <option value="false">Invalide</option>
-                        </select> -->
+                        
                         <button id="resetFiltersBtn" class="btn-secondary"><i class="fas fa-times"></i> Réinitialiser</button>
                     </div>
                 </div>
@@ -103,8 +99,8 @@
                 <!-- Barre d'actions: import, ajout rapide -->
                 <div class="action-bar">
                     <div class="import-section">
-                        <button id="importSelectedBtn" class="btn-primary"><i class="fas fa-cloud-upload-alt"></i> Importer sélection (JSON → PostgreSQL)</button>
-                        <span class="import-hint">Cochez les lignes JSON</span>
+                        <button id="importSelectedBtn" class="btn-primary"><i class="fas fa-cloud-upload-alt"></i> Importer (JSON  → PostgreSQL)</button>
+                        <button id="importBtn" class="btn-primary" style="display:none" > <i class="fas fa-cloud-upload-alt"></i>Importer File</button>
                     </div>
                     <button id="openAddModalBtn" class="btn-success"><i class="fas fa-plus-circle"></i> Nouvel étudiant</button>
                 </div>
@@ -169,8 +165,8 @@
         </div>
     </div>
 
-    <script type="module" src="../js/students.js"></script>
     <script type="module" src="../js/archives.js"></script>
+    <script type="module" src="../js/students.js"></script>
 
 </body>
 </html>

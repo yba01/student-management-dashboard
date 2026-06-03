@@ -30,7 +30,7 @@ export async function createStudent(student) {
     return response.json();
 }
 
-export async function updateStudent(numero, payload) {
+export async function updatestudent(numero, payload) {
     const response = await fetch(
         `${API_URL}/etudiants/${numero}`,
         {

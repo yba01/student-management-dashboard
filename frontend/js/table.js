@@ -7,7 +7,7 @@ function renderStudentRow(student) {
     const isDb = student.source === "DB";
 
     const rowclass = isJson ? 'row-json' : ''
-    const checkbox = isJson && !student.archived ? `<input type="checkbox" value="${student.numero}" />` : '';
+    const checkbox = isJson && !student.archived ? `<input type="checkbox" class="import-checkbox" data-id="${student.numero}" />` : '';
 
     const sourceBadge = isDb ? "badge-pg" : "badge-json";
     const source =  isDb ? 'PostgreSQL' : student.source
@@ -46,11 +46,12 @@ function renderStudentRow(student) {
         </td>
 
         <td>
+            <div class="action-buttons">
 
-            ${isDb && !student.archived ? `<button class="edit-btn" data-numero="${student.numero}"> Edit </button>` : ''}
+                ${isDb && !student.archived ? `<button class="edit-btn" data-numero="${student.numero}"> Edit </button>` : ''}
 
-            ${!student.archived ? `<button class="archive-btn" data-id="${student.numero}">Archive</button>` : `<button class="restore-btn" data-id="${student.numero}">Restaure</button>`}
-            
+                ${!student.archived ? `<button class="archive-btn" data-id="${student.numero}">Archive</button>` : `<button class="restore-btn" data-id="${student.numero}">Restaure</button>`}
+            </div>
         </td>
 
     </tr>

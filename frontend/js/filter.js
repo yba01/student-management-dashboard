@@ -1,17 +1,34 @@
+import { filters, setCurrentPar, showstudents } from './students.js'
 
-import { filters } from './students.js'
-function applyFilters() {
-    if (filters.searchNumero) result = result.filter(s => s.numero.toLowerCase().includes(filters.searchNumero.toLowerCase()));
-    if (filters.searchCode) result = result.filter(s => s.code.toLowerCase().includes(filters.searchCode.toLowerCase()));
-    if (filters.searchNomPrenom) result = result.filter(s => `${s.prenom} ${s.nom}`.toLowerCase().includes(filters.searchNomPrenom.toLowerCase()) || `${s.nom} ${s.prenom}`.toLowerCase().includes(filters.searchNomPrenom.toLowerCase()));
-    if (filters.classe) result = result.filter(s => s.classe === filters.classe);
-    if (filters.source) result = result.filter(s => s.source === filters.source);
-    if (filters.valide !== "") result = result.filter(s => s.valide === (filters.valide === "true"));
-    filteredStudents = result;
-    currentPage = 1;
-    renderTable();
-    updatePaginationInfo();
+export function reset() {
+     // Reset all filter values to ""
+        Object.keys(filters).forEach(key => filters[key] = "");
+    
+        // Also clear the input fields in the UI (if they exist)
+        const inputIds = ["searchNumero", "searchCode", "searchNomPrenom", "filterClasse", "filterSource"];
+        inputIds.forEach(id => {
+            const input = document.getElementById(id);
+            if (input) input.value = "";
+        });
 }
-document.getElementById("filterClasse").addEventListener("change", e => { filters.classe = e.target.value; applyFilters(); });
-document.getElementById("filterSource").addEventListener("change", e => { filters.source = e.target.value; applyFilters(); });
-   
+
+function updateFiltersFromInputs() {
+    filters.numero = document.getElementById("searchNumero").value;
+    filters.code = document.getElementById("searchCode").value;
+    filters.nom = document.getElementById("searchNomPrenom").value;
+    filters.classe = document.getElementById("filterClasse").value;
+    filters.source = document.getElementById("filterSource").value;
+}
+
+// Auto-apply: whenever any filter input changes, reset and reload
+export function bindAutoFilter() {
+    const inputs = ["searchNumero", "searchCode", "searchNomPrenom", "filterClasse", "filterSource"];
+    inputs.forEach(id => {
+        document.getElementById(id).addEventListener("input", () => {
+            updateFiltersFromInputs();
+            setCurrentPar();
+            showstudents();    // fresh load with new filters
+        });
+    });
+}
+
