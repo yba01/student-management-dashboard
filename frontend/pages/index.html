@@ -138,28 +138,81 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h3 id="modalTitle">Ajouter un étudiant</h3>
-                <span class="close-modal">&times;</span>
+                <!-- <span class="close-modal">&times;</span> -->
             </div>
-            <form id="studentForm">
+           
+            <form id="studentForm" class="modern-form">
                 <div class="form-group">
-                    <label>Numéro étudiant *</label>
-                    <input type="text" id="studentNumero" required>
+                    <label>
+                        <i class="fas fa-id-card"></i>Numéro étudiant <span class="required">*</span>
+                    </label>
+                    <input type="text" id="studentNumero" placeholder="Ex: E2024001" required>
                 </div>
+
                 <div class="form-group">
-                    <label>Code *</label>
-                    <input type="text" id="studentCode" required>
+                    <label>
+                        <i class="fas fa-barcode"></i>
+                        Code <span class="required">*</span>
+                    </label>
+                    <input type="text" id="studentCode" placeholder="Ex: CS101" required>
                 </div>
+
                 <div class="form-row">
-                    <div class="form-group"><label>Prénom *</label><input type="text" id="studentPrenom" required></div>
-                    <div class="form-group"><label>Nom *</label><input type="text" id="studentNom" required></div>
+                    <div class="form-group">
+                        <label><i class="fas fa-user"></i> Prénom <span class="required">*</span></label>
+                        <input type="text" id="studentPrenom" placeholder="Prénom" required>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-user"></i> Nom <span class="required">*</span></label>
+                        <input type="text" id="studentNom" placeholder="Nom" required>
+                    </div>
                 </div>
+
                 <div class="form-row">
-                    <div class="form-group"><label>Classe *</label><select id="studentClasse" required><option value="">Choisir</option><option>M1</option><option>M2</option><option>L3</option><option>L2</option></select></div>
-                    <div class="form-group"><label>Valide</label><input type="checkbox" id="studentValide"></div>
+                    <div class="form-group">
+                        <label><i class="fas fa-graduation-cap"></i> Classe <span class="required">*</span></label>
+                        <select id="studentClasse" required>
+                            <option value="" disabled selected>Choisir une classe</option>
+                            <optgroup label="6ème">
+                                <option value="6e A">6e A</option>
+                                <option value="6e B">6e B</option>
+                                <option value="6e C">6e C</option>
+                                <option value="6e D">6e D</option>
+                            </optgroup>
+                            <optgroup label="5ème">
+                                <option value="5e A">5e A</option>
+                                <option value="5e B">5e B</option>
+                                <option value="5e C">5e C</option>
+                                <option value="5e D">5e D</option>
+                            </optgroup>
+                            <optgroup label="4ème">
+                                <option value="4e A">4e A</option>
+                                <option value="4e B">4e B</option>
+                                <option value="4e C">4e C</option>
+                                <option value="4e D">4e D</option>
+                            </optgroup>
+                            <optgroup label="3ème">
+                                <option value="3e A">3e A</option>
+                                <option value="3e B">3e B</option>
+                                <option value="3e C">3e C</option>
+                                <option value="3e D">3e D</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="fas fa-calendar-alt"></i> Date de naissance</label>
+                        <input type="date" id="studentDate" value="">
+                    </div>
                 </div>
+
                 <div class="form-actions">
-                    <button type="button" id="cancelModalBtn" class="btn-secondary">Annuler</button>
-                    <button type="submit" class="btn-primary">Enregistrer</button>
+                    <button type="button" id="cancelModalBtn" class="btn-secondary">
+                        <i class="fas fa-times"></i> Annuler
+                    </button>
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-save"></i> Enregistrer
+                    </button>
                 </div>
             </form>
         </div>

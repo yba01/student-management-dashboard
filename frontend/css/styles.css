@@ -190,7 +190,18 @@ body {
     border: 1px solid var(--gray);
     border-radius: 12px;
     font-size: 0.9rem;
+    transition: all 0.2s ease;
+
 }
+
+.search-group input:focus, input:hover {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+
+}
+
+
 
 .filter-select {
     padding: 0.6rem 1rem;
@@ -321,6 +332,9 @@ body {
     .sidebar span, .sidebar-footer { display: none; }
     .main-content { padding: 1rem; }
 }
+
+
+
 
 
 
@@ -506,3 +520,128 @@ body {
     background: var(--gray);
     color: var(--dark);
 }
+
+
+
+/* ===== FORMULAIRE MODERNE (MODAL) ===== */
+.modern-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.modern-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.modern-form label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.modern-form label i {
+    width: 18px;
+    color: var(--primary);
+    font-size: 0.9rem;
+}
+
+.required {
+    color: var(--danger);
+    margin-left: 2px;
+}
+
+.modern-form input,
+.modern-form select {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--gray);
+    border-radius: 14px;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    background: var(--white);
+    font-family: inherit;
+}
+
+.modern-form input:focus,
+.modern-form select:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.modern-form input:hover,
+.modern-form select:hover {
+    border-color: var(--secondary);
+}
+
+/* Champ date spécifique */
+.modern-form input[type="date"] {
+    padding: 0.65rem 1rem;
+    color-scheme: light;
+}
+
+/* Rangée à deux colonnes */
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* Boutons d'action */
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.form-actions button {
+    padding: 0.7rem 1.5rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 520px) {
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .modern-form .form-row .form-group {
+        flex: 1 1 100%;
+    }
+}
+
+
+/* Correction débordement formulaire */
+.modern-form .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.modern-form .form-row .form-group {
+    flex: 1 1 calc(50% - 0.5rem);
+    min-width: 0; /* Empêche le débordement */
+}
+
+.modern-form input,
+.modern-form select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Assure que la modale ne déborde pas sur mobile */
+.modal-content {
+    max-width: 90%;
+    width: 550px;
+    overflow-x: hidden;
+}
+

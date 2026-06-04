@@ -1,5 +1,5 @@
 import { getstudent, updatestudent } from './api.js'
-import { showstudents, setCurrentPar } from './students.js'
+import { showstudents, setCurrentPar } from './load.js'
 import { rendereditline } from './table.js'
 import { escapeHtml, showToast } from './utils.js'
 // Fonction pour activer l'édition flottante sur une ligne
@@ -17,7 +17,6 @@ export async function setupInlineEdit() {
         const student = await getstudent(numero)
         if (!student || student.source !== 'DB') return;
 
-        console.log(student)
 
         // Supprimer tout panneau existant
         document.querySelectorAll('.inline-edit-panel').forEach(p => p.remove());

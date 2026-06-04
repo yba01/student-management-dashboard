@@ -15,7 +15,7 @@ export async function getstudent(numero) {
     return response.json();
 }
 
-export async function createStudent(student) {
+export async function createstudent(student) {
     const response = await fetch(
         `${API_URL}/etudiants`,
         {

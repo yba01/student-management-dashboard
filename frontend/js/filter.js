@@ -1,4 +1,4 @@
-import { filters, setCurrentPar, showstudents } from './students.js'
+import { filters, setCurrentPar, showstudents } from './load.js'
 
 export function reset() {
      // Reset all filter values to ""
