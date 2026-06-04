@@ -1,5 +1,5 @@
-from database.connection import connect
-import database.board_queries as qr
+from app.database.connection import connect
+import app.database.board_queries as qr
 from psycopg.rows import dict_row
 
 def get_statistics():

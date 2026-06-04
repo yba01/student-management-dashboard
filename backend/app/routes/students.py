@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query, HTTPException
-import services.student_service as std
-from schema.student_schema import etudiant, updatetudiant
+import app.services.student_service as std
+from app.schema.student_schema import etudiant, updatetudiant
 
 router = APIRouter()
 

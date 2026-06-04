@@ -1,7 +1,7 @@
 from fastapi import FastAPI 
 from fastapi.middleware.cors import CORSMiddleware
-from routes.students import router as student_router
-from routes.dashboard import router as dashboard_router
+from app.routes.students import router as student_router
+from app.routes.dashboard import router as dashboard_router
 
 app = FastAPI(
     title="Student Management API",

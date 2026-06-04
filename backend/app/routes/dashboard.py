@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Query, HTTPException
-import services.dashboard_service as board
+import app.services.dashboard_service as board
 
 router = APIRouter()
 

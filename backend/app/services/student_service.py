@@ -1,6 +1,6 @@
-from database.connection import connect
-import database.queries as qr
-from utils.json_loader import load_json
+from app.database.connection import connect
+import app.database.queries as qr
+from app.utils.json_loader import load_json
 from psycopg.rows import dict_row
 
 def create_student(student):

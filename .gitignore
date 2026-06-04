@@ -40,3 +40,5 @@ Thumbs.db
 
 #my own directories
 zconception/
+
+pytest.ini
