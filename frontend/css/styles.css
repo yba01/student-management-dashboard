@@ -424,3 +424,85 @@ body {
     gap: 8px;
     justify-content: center;
 }
+
+
+
+
+
+
+
+/*Ligne en cours d'édition : repère pour le positionnement*/
+.data-table tr.editing-row {
+    position: relative;
+    background-color: #fefce8;
+    transition: background 0.2s;
+}
+
+/* Panneau d'édition flottant – version centrée */
+.inline-edit-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 2px solid var(--primary);
+    border-radius: 16px;
+    padding: 16px 20px;
+    box-shadow: var(--shadow-lg);
+    z-index: 1000;
+    
+    /* Centrage du contenu */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.98);
+}
+
+/* Style des champs */
+.inline-edit-panel input,
+.inline-edit-panel select {
+    padding: 8px 12px;
+    border-radius: 30px;
+    border: 1px solid var(--gray);
+    font-size: 0.85rem;
+    background: white;
+    text-align: center;  /* centrer le texte dans les inputs */
+}
+
+/* Champ date spécifique */
+.inline-edit-panel input[type="date"] {
+    width: auto;
+    min-width: 140px;
+}
+
+/* Labels et checkbox */
+.inline-edit-panel label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    background: #f1f5f9;
+    padding: 6px 12px;
+    border-radius: 30px;
+}
+
+/* Boutons */
+.inline-edit-panel button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.inline-edit-panel .cancel-edit {
+    background: var(--gray);
+    color: var(--dark);
+}

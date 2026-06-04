@@ -7,7 +7,7 @@ export async function getstudents(params = "") {
     return response.json();
 }
 
-export async function getStudent(numero) {
+export async function getstudent(numero) {
     const response = await fetch(
         `${API_URL}/etudiants/${numero}`
     );

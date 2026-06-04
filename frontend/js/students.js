@@ -2,6 +2,7 @@ import { getstudents } from './api.js'
 import { rendertable } from './table.js'
 import { reset, bindAutoFilter  } from './filter.js'
 import { attachecheckbox, importdb, importjsontodb } from './import.js'
+import { setupInlineEdit } from './edit.js'
 
 export let currentPage = 1;
 export let hasMore = true;
@@ -101,4 +102,6 @@ document.getElementById("activeViewBtn")?.addEventListener("click", () => { loca
 attachecheckbox()
 document.getElementById("importSelectedBtn")?.addEventListener("click", () => {importdb()})
 importjsontodb()
-//update data
+
+//editing  data
+setupInlineEdit()
