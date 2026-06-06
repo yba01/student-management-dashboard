@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduManage - Dashboard</title>
+    <title>student-manager</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -29,28 +29,50 @@
         </aside>
         <main class="main-content">
             <header class="top-bar">
-                <h1>Tableau de bord analytique</h1>
+                <!-- <h1>Tableau de bord analytique</h1>
                 <div class="header-actions">
                     <button id="refreshDashboardBtn" class="btn-icon"><i class="fas fa-sync-alt"></i></button>
+                </div> -->
+                <div class="welcome-message dashboard-welcome">
+                    <div class="welcome-text">
+                        <h2>Tableau de bord analytique</h2>
+                        <small> Les graphiques et les cartes se mettent à jour automatiquement à chaque modification dans l’espace de gestion.</small>
+                    </div>
                 </div>
             </header>
 
             <div class="dashboard-grid">
                 <!-- Cartes KPI -->
-                <div class="stat-card"><i class="fas fa-user-graduate"></i><div><h3>Étudiants actifs</h3><p id="totalActive">0</p></div></div>
-                <div class="stat-card"><i class="fas fa-archive"></i><div><h3>Archivés</h3><p id="totalArchived">0</p></div></div>
-                <div class="stat-card"><i class="fas fa-database"></i><div><h3>PostgreSQL</h3><p id="totalPG">0</p></div></div>
-                <div class="stat-card"><i class="fas fa-code"></i><div><h3>JSON (non importés)</h3><p id="totalJSON">0</p></div></div>
-                <div class="stat-card"><i class="fas fa-check-circle"></i><div><h3>Validés</h3><p id="totalValid">0</p></div></div>
-                <div class="stat-card"><i class="fas fa-times-circle"></i><div><h3>Non validés</h3><p id="totalInvalid">0</p></div></div>
+                <div class="kpi">
+                    <div class="stat-card"><i class="fas fa-user-graduate"></i><div><h3>Étudiants actifs</h3><p id="totalActive">0</p></div></div>
+                    <div class="stat-card"><i class="fas fa-archive"></i><div><h3>Archivés</h3><p id="totalArchived">0</p></div></div>
+                    <div class="stat-card"><i class="fas fa-database"></i><div><h3>PostgreSQL</h3><p id="totalPG">0</p></div></div>
+                    <div class="stat-card"><i class="fas fa-code"></i><div><h3>JSON (non importés)</h3><p id="totalJSON">0</p></div></div>
+                </div>
 
                 <!-- Graphiques -->
-                <div class="chart-card"><canvas id="classChart"></canvas><p>Répartition par classe</p></div>
-                <div class="chart-card"><canvas id="sourceChart"></canvas><p>Source des données</p></div>
-                <div class="chart-card"><canvas id="validityChart"></canvas><p>Validité des dossiers</p></div>
+                 
+                <div>
+                    <div class="chart-card"><canvas id="classChart"></canvas><p>Comparaison des effectifs et des moyennes par classe</p></div>
+                </div>
+                <!-- Top 10 des meilleures étudiants -->
+                <div class="table-header">
+                    <h3>🏆 Top 10 des meilleurs étudiants (par moyenne générale)</h3>
+                    <p>Classement basé sur les résultats du dernier semestre</p>
+                </div>
+                <div class="table-container">
+
+                    <table class="data-table" id="studentsTable">
+                        <thead>
+                            <th>N° étudiant</th><th>Code</th><th>Prénom</th><th>Nom</th><th>Date</th><th>Classe</th><th style="width: 100px">Moyenne</th></tr>
+                        </thead>
+                        <tbody id="tableTopten">
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </main>
     </div>
-    <script src="../js/dashboard.js"></script>
+    <script type="module" src="../js/dashboard.js"></script>
 </body>
 </html>

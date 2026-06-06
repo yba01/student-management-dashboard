@@ -1,9 +1,10 @@
 
-import { showstudents } from './load.js'
+import { showstudents, setCurrentPar } from './load.js'
 import { reset, bindAutoFilter  } from './filter.js'
 import { attachecheckbox, importdb, importjsontodb } from './import.js'
 import { setupInlineEdit } from './edit.js'
 import { createStudent } from './create.js'
+import { rapidacces } from './utils.js'
 
 
 //load students for the first
@@ -13,9 +14,7 @@ showstudents()
 document.getElementById("resetFiltersBtn").addEventListener("click", () => {
     reset()
     // Reset pagination state
-    currentPage = 1;
-    hasMore = true;
-    loading = false;
+    setCurrentPar()
     showstudents()
 }) 
 bindAutoFilter()
@@ -31,3 +30,5 @@ setupInlineEdit()
 
 //creating students
 createStudent()
+
+rapidacces()

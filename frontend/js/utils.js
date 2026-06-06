@@ -10,3 +10,26 @@ export function showToast(msg, type = "info") {
     document.body.appendChild(toast);
     setTimeout(() => toast.remove(), 3000);
 }
+
+// Défilement vers la barre d'actions (import / ajout)
+export function rapidacces() {
+    const scrollBtn = document.getElementById('scrollToActionsBtn');
+    if (scrollBtn) {
+        scrollBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const body = document.querySelector('body');
+            if (body) {
+                body.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Optionnel : mettre en surbrillance la barre d'actions
+                body.style.transition = 'background 0.3s';
+                body.style.background = '#e0f2fe';
+                setTimeout(() => {
+                    body.style.background = '';
+                }, 1000);
+            } else {
+                // Fallback : scroll vers le haut
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        });
+    }
+}

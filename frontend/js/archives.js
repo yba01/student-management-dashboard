@@ -12,6 +12,11 @@ async function loadarchives(){
 document.getElementById("archivesViewBtn")?.addEventListener("click", () => { 
     document.getElementById("activeView").style.display="none"; 
     document.getElementById("archivesView").style.display="block"; 
+
+
+    document.getElementById("actifwlc").style.display="none"; 
+    document.getElementById("archivewlc").style.display="block"; 
+    
     document.getElementById("archivesViewBtn").classList.add("active"); 
     document.getElementById("activeViewBtn").classList.remove("active"); 
     loadarchives(); });

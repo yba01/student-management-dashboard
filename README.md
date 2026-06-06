@@ -1,297 +1,342 @@
-# Student Management Web System
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/yba01/student-management-dashboard/blob/main/README.en.md)
 
-A modern student management web application built with **FastAPI**, **PostgreSQL**, and **Vanilla JavaScript**.
-The project combines backend API development, SQL database design, frontend integration, and data visualization into a complete full-stack application.
+# Student Management Dashboard
 
----
+Application web full-stack permettant de gérer des étudiants, leurs notes et leurs statistiques académiques.
 
-# Features
-
-## Student Management
-- Display students with pagination
-- Search by:
-  - student number
-  - code
-  - first name
-  - last name
-- Filter by:
-  - class
-  - source (DB / JSON)
-  - validity
-- Add new students
-- Edit existing students
-- Archive and restore students
+Développée avec **FastAPI**, **PostgreSQL** et **JavaScript Vanilla**, l'application offre des fonctionnalités de gestion des étudiants, de visualisation de données, de recherche avancée et de statistiques académiques.
 
 ---
 
-## Smart Data Loading
-The application uses two data sources:
+## Présentation
 
-### Primary Source
-- PostgreSQL database
+Student Management Dashboard simule un système de gestion scolaire moderne.
 
-### Secondary Source
-- `valides.json`
+L'application permet de :
 
-If the database does not contain enough records, the system automatically completes the result using JSON data.
+- Importer des étudiants depuis un fichier JSON
+- Créer, modifier et consulter des étudiants
+- Archiver et restaurer des étudiants
+- Rechercher et filtrer les données
+- Visualiser des statistiques académiques
+- Analyser les performances par classe
+- Identifier les meilleurs étudiants
 
-Each row indicates its origin:
-- `DB`
-- `JSON`
-
----
-
-## Dashboard & Analytics
-Interactive dashboard built with **Chart.js**:
-- Total students
-- Valid / invalid data
-- Archived students
-- Data source distribution
-- Students per class
-- Top 10 averages
-- Average per class
+Le projet est conçu selon une architecture claire séparant le frontend, le backend, la couche métier, l'accès aux données et les tests.
 
 ---
 
-## JSON → PostgreSQL Import
-- Select one or multiple JSON rows
-- Import into PostgreSQL
-- Duplicate detection using student number
-- Imported rows become editable
+## Fonctionnalités
+
+### Gestion des étudiants
+
+- Import des données depuis `valid.json`
+- Création d'étudiants
+- Modification des informations
+- Archivage d'étudiants
+- Restauration d'étudiants archivés
+- Consultation des détails d'un étudiant
+
+### Recherche et Navigation
+
+- Recherche par mot-clé
+- Filtrage par classe
+- Filtrage par source de données
+- Défilement infini (Infinite Scroll) avec Intersection Observer
+
+### Tableau de bord et statistiques
+
+- Nombre total d'étudiants
+- Nombre d'étudiants provenant de PostgreSQL
+- Nombre d'étudiants provenant du fichier JSON
+- Nombre d'étudiants actifs
+- Nombre d'étudiants archivés
+- Répartition des étudiants par classe
+- Top 10 des meilleures moyennes
+- Moyenne générale par classe
+
+### Qualité logicielle
+
+- Tests automatisés avec Pytest
+- Validation des données avec Pydantic
+- Architecture API REST
 
 ---
 
-# Tech Stack
+## Technologies utilisées
 
-## Backend
-- Python
+### Backend
+
 - FastAPI
-- Pydantic
 - PostgreSQL
-- psycopg
-- Raw SQL
+- Pydantic
+- Psycopg
+- Pytest
 
-## Frontend
-- HTML
-- CSS
-- JavaScript
-- Fetch API
+### Frontend
 
-## Visualization
+- HTML5
+- CSS3
+- JavaScript Vanilla
+- Intersection Observer API
 - Chart.js
 
-## Tools
-- Linux
-- Bash
-- Git & GitHub
-
 ---
 
-# Project Architecture
+## Architecture du projet
 
 ```text
-student-management-web-app/
+student-management-dashboard/
 │
 ├── backend/
 │   ├── app/
-│   │   ├── main.py
 │   │   ├── routes/
 │   │   ├── services/
 │   │   ├── database/
-│   │   ├── schemas/
+│   │   ├── schema/
 │   │   ├── utils/
-│   │   └── data/
+│   │   └── main.py
 │   │
-│   ├── requirements.txt
-│   └── .env
+│   └── tests/
 │
 ├── frontend/
-│   ├── pages/
-│   ├── css/
+|   ├── css/
 │   ├── js/
-│   └── assets/
+│   └── pages/
 │
 ├── sql/
-│  
-├── scripts/
-|
-|── tests/
+│   └── schema.sql
 │
-├── README.md
-└── docker-compose.yml
+├── script/
+│
+├── docs/
+│   ├── students.png
+│   ├── dashboard.png
+│   └── archive.png
+│
+├── requirements.txt
+├── .env.example
+└── README.md
 ```
+
 ---
 
-# Application Architecture
-```
-Frontend (HTML/CSS/JS)
-            │
-            ▼
-      FastAPI REST API
-            │
-            ▼
- Business Logic Services
-            │
-     ┌──────┴──────┐
-     ▼             ▼
-PostgreSQL      JSON Loader
-```
+## Base de données
+
+Le projet utilise PostgreSQL avec deux tables principales :
+
+### etudiants
+
+Contient les informations administratives des étudiants.
+
+### notes
+
+Contient les notes associées aux étudiants.
+
 ---
 
-# Database Design
-Main entities:
+## Endpoints API
 
-- Student
-- Class
-- Subject
-- Grade
-- Archive
+### Gestion des étudiants
 
-The database uses:
+| Méthode | Endpoint | Description |
+|----------|------------|-------------|
+| POST | `/api/v1/import/json` | Importer les données JSON |
+| GET | `/api/v1/etudiants` | Liste des étudiants |
+| GET | `/api/v1/etudiants/{numero}` | Détail d'un étudiant |
+| POST | `/api/v1/etudiants` | Créer un étudiant |
+| PATCH | `/api/v1/etudiants/{numero}` | Modifier un étudiant |
+| PATCH | `/api/v1/etudiants/{numero}/archive` | Archiver un étudiant |
+| PATCH | `/api/v1/etudiants/{numero}/restore` | Restaurer un étudiant |
 
-- foreign keys
-- indexes
-- triggers
-- constraints
-- pagination queries
-  
+### Statistiques
+
+| Méthode | Endpoint | Description |
+|----------|------------|-------------|
+| GET | `/api/v1/stats/globales` | Statistiques globales |
+| GET | `/api/v1/stats/top-moyeennes` | Top 10 des étudiants |
+| GET | `/api/v1/stats/classe` | Statistiques par classe |
+
 ---
 
-#   API Endpoints
-##  Students
-```
-GET    /students
-POST   /students
-PUT    /students/{id}
-DELETE /students/{id}
-```
-##  Dashboard
-```
-GET /dashboard/stats
-GET /dashboard/top-students
-```
-##  Archives
-```
-GET  /archives
-POST /archives/{id}/restore
-```
-##  Import
-```
-POST /import/json  
-```
+## Captures d'écran
+
+### Tableau de bord
+
+![Dashboard](docs/dashboard.png)
+
+### Gestion des étudiants
+
+![Students](docs/students.png)
+
+### Gestion des archives
+
+![Archive](docs/archive.png)
+
 ---
 
-# Installation
-##  1. Clone the repository
-```
-git clone https://github.com/your-username/student-management.git
-cd student-management
+## Installation
+
+### Cloner le dépôt
+
+```bash
+git clone https://github.com/yba01/student-management-dashboard.git
+
+cd student-management-dashboard
 ```
 
-##  2. Create virtual environment
-```
+---
+
+### Configuration du Backend
+
+Créer un environnement virtuel :
+
+```bash
 python -m venv venv
+```
+
+Activer l'environnement :
+
+Linux / macOS :
+
+```bash
 source venv/bin/activate
 ```
 
-##  3. Install dependencies
-```
-pip install -r backend/requirements.txt
+Windows :
+
+```bash
+venv\Scripts\activate
 ```
 
-##  4. Configure environment variables
+Installer les dépendances :
 
-Create a `.env` file:
+```bash
+pip install -r requirements.txt
 ```
+
+---
+
+### Variables d'environnement
+
+Créer un fichier `.env` à partir du fichier `.env.example`.
+
+```env
 DB_HOST=localhost
+DB_NAME=db
 DB_PORT=5432
-DB_NAME=student_db
 DB_USER=postgres
-DB_PASSWORD=password
+DB_PASSWORD=votre_mot_de_passe
 ```
 
-##  5. Create database schema
+---
+
+### Initialisation de la base de données
+
+Créer la base PostgreSQL puis exécuter :
+
+```bash
+psql -U postgres -d db -f sql/schema.sql
 ```
-psql -U postgres -d student_db -f sql/schema.sql
-##  6. Start the backend server
+
+---
+
+### Lancer le Backend
+
+```bash
 uvicorn app.main:app --reload
 ```
 
-##  7. Open frontend
+API disponible sur :
 
-Open:
-
-```
-frontend/pages/index.html
+```text
+http://localhost:8000
 ```
 
----
+Documentation Swagger :
 
-
-# Example Workflow
+```text
+http://localhost:8000/docs
 ```
-User opens application
-        ↓
-Frontend sends HTTP request
-        ↓
-FastAPI receives request
-        ↓
-Service layer processes logic
-        ↓
-PostgreSQL queried
-        ↓
-JSON used if necessary
-        ↓
-Response returned as JSON
-        ↓
-Frontend renders data
+
+---
+
+### Lancer le Frontend
+
+```bash
+cd frontend
+
+python -m http.server 5500
 ```
----
 
-# Learning Objectives
+Application disponible sur :
 
-This project demonstrates:
-
-- REST API development
-- PostgreSQL database design
-- Raw SQL queries
-- Backend/frontend communication
-- Data validation
-- Pagination systems
-- Data visualization
-- Software architecture
-- Full-stack application design
+```text
+http://localhost:5500
+```
 
 ---
 
-# Future Improvements
-- Authentication & authorization
-- Docker deployment
-- CI/CD pipeline
-- Unit testing
-- Role management
-- Export to PDF/Excel
-- WebSocket real-time updates
+## Tests
+
+Exécuter tous les tests :
+
+```bash
+pytest
+```
+
+Tests actuellement implémentés :
+
+- Récupération des étudiants
+- Récupération d'un étudiant
+- Étudiant inexistant
+- Création d'un étudiant
+- Archivage d'un étudiant
+- Restauration d'un étudiant
 
 ---
 
-#  Screenshots
-##  Dashboard
+## Principes de conception
 
-Add dashboard screenshot here
-
-##  Student Table
-
-Add student table screenshot here
-
----
-
-# Author
-
-Developed by @yba01.
+- Architecture claire et modulaire
+- Séparation des responsabilités
+- Couche métier dédiée (Services)
+- API RESTful
+- Configuration via variables d'environnement
+- Validation des données
+- Tests automatisés
 
 ---
 
-# License
+## Améliorations futures
 
-This project is licensed under the MIT License.
+- Authentification et gestion des rôles
+- Déploiement avec Docker
+- Pipeline CI/CD
+- Export Excel / PDF
+- Analyses statistiques avancées
+- Gestion multi-utilisateurs
+
+---
+
+## Auteur
+
+**Yba (yba01)**
+
+GitHub : https://github.com/yba01
+
+---
+
+## Compétences démontrées
+
+Ce projet met en évidence :
+
+- Développement Backend avec FastAPI
+- Conception et manipulation de bases PostgreSQL
+- Requêtes SQL et agrégations
+- Conception d'API REST
+- Validation de données avec Pydantic
+- Tests automatisés avec Pytest
+- Développement Frontend en JavaScript Vanilla
+- Visualisation et analyse de données
+- Organisation professionnelle d'un projet logiciel

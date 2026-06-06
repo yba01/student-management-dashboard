@@ -12,50 +12,84 @@ function renderStudentRow(student) {
     const sourceBadge = isDb ? "badge-pg" : "badge-json";
     const source =  isDb ? 'PostgreSQL' : student.source
 
-    return `
-    <tr data-numero="${student.numero}" class="${rowclass}">
 
-        <td>
-            ${checkbox}
-        </td> 
+    if (!student.moyenne) {
+        return `
+        <tr data-numero="${student.numero}" class="${rowclass}">
+    
+            <td>
+                ${checkbox}
+            </td> 
+    
+            <td>${escapeHtml(student.numero)}</td>
+    
+            <td>${escapeHtml(student.code)}</td>
+    
+            <td>
+                ${escapeHtml(
+                    (student.prenom || "")
+                    .toUpperCase()
+                )}
+            </td>
+    
+            <td>
+                ${escapeHtml(
+                    (student.nom || "")
+                    .toUpperCase()
+                )}
+            </td>
+    
+            <td>${escapeHtml(student.classe)}</td>
+    
+            <td>
+                <span class="badge ${sourceBadge}">
+                    ${source}
+                </span>
+            </td>
+    
+            <td>
+                <div class="action-buttons">
+    
+                    ${isDb && !student.archived ? `<button class="edit-btn" data-numero="${student.numero}"> Edit </button>` : ''}
+    
+                    ${!student.archived ? `<button class="archive-btn" data-id="${student.numero}">Archive</button>` : `<button class="restore-btn" data-id="${student.numero}">Restaure</button>`}
+                </div>
+            </td>
+    
+        </tr>
+        `;
 
-        <td>${escapeHtml(student.numero)}</td>
+    }else {
+        return `
+        <tr data-numero="${student.numero}" class="${rowclass}">
+    
+            <td>${escapeHtml(student.numero)}</td>
+    
+            <td>${escapeHtml(student.code)}</td>
+    
+            <td>
+                ${escapeHtml(
+                    (student.prenom || "")
+                    .toUpperCase()
+                )}
+            </td>
+    
+            <td>
+                ${escapeHtml(
+                    (student.nom || "")
+                    .toUpperCase()
+                )}
+            </td>
 
-        <td>${escapeHtml(student.code)}</td>
-
-        <td>
-            ${escapeHtml(
-                (student.prenom || "")
-                .toUpperCase()
-            )}
-        </td>
-
-        <td>
-            ${escapeHtml(
-                (student.nom || "")
-                .toUpperCase()
-            )}
-        </td>
-
-        <td>${escapeHtml(student.classe)}</td>
-
-        <td>
-            <span class="badge ${sourceBadge}">
-                ${source}
-            </span>
-        </td>
-
-        <td>
-            <div class="action-buttons">
-
-                ${isDb && !student.archived ? `<button class="edit-btn" data-numero="${student.numero}"> Edit </button>` : ''}
-
-                ${!student.archived ? `<button class="archive-btn" data-id="${student.numero}">Archive</button>` : `<button class="restore-btn" data-id="${student.numero}">Restaure</button>`}
-            </div>
-        </td>
-
-    </tr>
-    `;
+            <td>${escapeHtml(student.date)}</td>
+    
+            <td>${escapeHtml(student.classe)}</td>
+    
+            <td>${escapeHtml(student.moyenne)}</td>
+        
+        </tr>
+        `;
+    }
 }
 
 export function rendertable(students, append = false) {
@@ -132,4 +166,20 @@ export function rendereditline(student) {
             <button id="saveEdit">Sauvegarder</button>
             <button id="cancelEdit" class="cancel-edit">Annuler</button>
         `;
+}
+
+export function rendertop(students) {
+        const tbody =
+        document.getElementById(
+            "tableTopten"
+        );
+
+        tbody.innerHTML = "";
+
+    students.forEach(student => {
+            tbody.insertAdjacentHTML(
+                "beforeend",
+                renderStudentRow(student)
+            );
+    });
 }

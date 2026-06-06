@@ -77,3 +77,28 @@ export async function importJson() {
 
     return response.json();
 }
+
+
+export async function statistics() {
+    const response = await fetch(
+        `${API_URL}/stats/globales`
+    )
+
+    return response.json()
+}
+
+export async function classe_agg() {
+    const response = await fetch(
+        `${API_URL}/stats/classes`
+    )
+
+    return response.json()
+}
+
+export async function top10() {
+    const response = await fetch(
+        `${API_URL}/stats/top-moyennes`
+    )
+
+    return response.json()
+}
