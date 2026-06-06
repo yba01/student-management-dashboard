@@ -10,7 +10,7 @@ def get_statistics():
     }
 
 def get_total_student():
-     with connect('schooldb') as con:
+     with connect() as con:
         if con != None :
             with con.cursor(row_factory = dict_row) as cur:
                 qr.total_student(cur)
@@ -19,7 +19,7 @@ def get_total_student():
 
 
 def get_total_by_source():
-    with connect('schooldb') as con:
+    with connect() as con:
         if con != None :
             with con.cursor(row_factory = dict_row) as cur:
 
@@ -30,7 +30,7 @@ def get_total_by_source():
 
 
 def get_archived_student():
-    with connect('schooldb') as con:
+    with connect() as con:
         if con != None :
             with con.cursor(row_factory = dict_row) as cur:
 
@@ -41,7 +41,7 @@ def get_archived_student():
                 return archived["archives"]
 
 def classe_aggregation():
-    with connect('schooldb') as con:
+    with connect() as con:
         if con != None :
             with con.cursor(row_factory = dict_row) as cur:
 
@@ -51,7 +51,7 @@ def classe_aggregation():
                 return classes
 
 def get_best_ten():
-   with connect('schooldb') as con:
+   with connect() as con:
         if con != None :
             with con.cursor(row_factory = dict_row) as cur:
 

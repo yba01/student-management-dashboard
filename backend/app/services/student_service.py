@@ -4,7 +4,7 @@ from app.utils.json_loader import load_json
 from psycopg.rows import dict_row
 
 def create_student(student):
-    with connect('schooldb') as con:
+    with connect() as con:
         if con != None :
             with con.cursor() as cur:
                 qr.create_student(cur, student.numero, student.code, student.prenom, student.nom, student.dates, student.classe, 'DB')
@@ -18,7 +18,7 @@ def create_students_with_note():
 
 
 def create_student_with_note(student, source):
-    with connect('schooldb') as con:
+    with connect() as con:
         if con != None :
             with con.cursor() as cur:
                 try:
@@ -32,7 +32,7 @@ def create_student_with_note(student, source):
        
 
 def get_students_from_db(page, limit, numero, nom, code, classe, source):
-    with connect('schooldb') as con:
+    with connect() as con:
         if con != None :
             with con.cursor(row_factory = dict_row) as cur:
                 qr.get_students(cur, page, limit, numero, nom, code, classe, source)
@@ -47,7 +47,7 @@ def get_students_from_db(page, limit, numero, nom, code, classe, source):
         
 
 def get_single_student_from_db(numero):
-     with connect('schooldb') as con:
+     with connect() as con:
         if con != None :
             with con.cursor(row_factory = dict_row) as cur:
                 qr.get_student(cur, numero)
@@ -56,7 +56,7 @@ def get_single_student_from_db(numero):
             
 
 def archive_student(numero):
-    with connect('schooldb') as con:
+    with connect() as con:
         if con != None :
             with con.cursor() as cur:
                 qr.archive_student(cur, numero)
@@ -66,7 +66,7 @@ def archive_student(numero):
 
 
 def restore_student(numero):
-    with connect('schooldb') as con:
+    with connect() as con:
         if con != None :
             with con.cursor() as cur:
                 qr.restore_student(cur, numero)
@@ -76,7 +76,7 @@ def restore_student(numero):
 
 
 def update_student(numero, student):
-   with connect('schooldb') as con:
+   with connect() as con:
         if con != None :
             with con.cursor() as cur:
                 qr.update_student(cur, numero, student)

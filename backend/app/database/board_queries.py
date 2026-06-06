@@ -10,7 +10,7 @@ def total_archived(cur):
 
 def total_by_source(cur):
     cur.execute(
-        "SELECT datasource source, COUNT(numero) effectif  FROM etudiant GROUP BY datasource"
+        "SELECT datasource source, COUNT(numero) effectif  FROM etudiant GROUP BY datasource ORDER BY source DESC"
     )
 
 def classe_aggreg(cur):
@@ -64,7 +64,7 @@ def first_ten(cur):
                 GROUP BY numero
             )
 
-            SELECT e.numero, e.code, e.prenom, e.nom, e.date_naissance date, e.classe, ROUND(m.mean, 2) AS moyenne
+            SELECT e.numero, e.code, e.prenom, e.nom, e.date_naissance date, e.classe, ROUND(m.mean, 2) AS moyenne, datasource source
             FROM etudiant e JOIN moyenne_generale m ON e.numero = m.numero
             ORDER BY moyenne DESC
             LIMIT 10
